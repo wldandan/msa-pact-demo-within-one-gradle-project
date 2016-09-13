@@ -1,0 +1,1 @@
+include "microservices-pact-consumer", "microservices-pact-provider"

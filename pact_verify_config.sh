@@ -1,0 +1,1 @@
+export PACT_FILE=/Users/wanglei/Work/training/microservice-online-training/training/jvm-service-pact/microservices-pact-demo/microservices-pact-consumer/target/pacts/FooConsumer-FooProvider.json
