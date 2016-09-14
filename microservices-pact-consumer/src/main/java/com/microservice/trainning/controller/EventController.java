@@ -1,7 +1,7 @@
 package com.microservice.trainning.controller;
 
-import com.microservice.trainning.gateway.FooClient;
-import com.microservice.trainning.model.Foo;
+import com.microservice.trainning.service.EventService;
+import com.microservice.trainning.model.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class FooController {
+public class EventController {
 
     @Autowired
-    FooClient fooClient;
+    EventService eventClient;
 
-    @RequestMapping("/foos")
-    public List<Foo> foos() {
-        return fooClient.getFoos();
+    @RequestMapping("/events")
+    public List<Event> events() {
+        return eventClient.getEvents();
     }
 
     @RequestMapping("/")

@@ -7,5 +7,5 @@ target
 build
 .DS_Store
 */.DS_Store
-foo-consumer-version
+event-consumer-version
 
