@@ -1,14 +1,12 @@
-** Spring Boot Microservices + Pact-JVM
+== 1.运行Consumer端测试
 
-== 运行Consumer端测试
-+
 ----
 $ ./gradlew test
 ----
 生成Consumer和Provider之间的Contract文件
 
 
-== 运行Provider端测试
+== 2.运行Provider端测试
 
 使用如下命令
 ----
