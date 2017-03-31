@@ -1,4 +1,4 @@
-== 1.运行Consumer端测试
+## 1.运行Consumer端测试
 
 ----
 $ ./gradlew test
@@ -6,7 +6,7 @@ $ ./gradlew test
 生成Consumer和Provider之间的Contract文件
 
 
-== 2.运行Provider端测试
+## 2.运行Provider端测试
 
 使用如下命令
 ----
