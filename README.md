@@ -1,11 +1,13 @@
-## 1.运行Consumer端测试,生成Consumer和Provider之间的Contract文件
+## 1.运行Consumer端测试
+
+生成Consumer和Provider之间的Contract文件
 ```
 $ ./gradlew test
 ```
 
 ## 2.运行Provider端测试
 
-使用如下命令
+使用如下命令,验证PACT文件与提供者的响应是否一致
 ```
 $ ./gradlew assemble 
 $ export PACT_FILE={xxxx} 导出PACT文件的路径
